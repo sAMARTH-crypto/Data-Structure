@@ -10,7 +10,7 @@ void TOH(int n, char BEG, char END, char AUX)
 	if (n>=1)
 	{
 		TOH(n-1,BEG,END,AUX);
-		printf("%c to %c",BEG,END);
+		printf("%c to %c \n",BEG,END);
 		TOH(n-1,AUX,BEG,END);
 	}
 } 
